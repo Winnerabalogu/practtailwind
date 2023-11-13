@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Tailwind</title>
+    <link rel="stylesheet" href="style.css ">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <div class="contaner min-h-screen bg-[url('images/Image.png')] bg-center bg-cover px-28 py-5 relative"> 
+        <nav class="flex items-center">
+            <img src="images/logo.png " class="w-40 cursor-pointer" >
+            <ul class="flex-1 text-center">
+                <li class="list-none inline-block px-5" ><a href="#" class="no-underline text-white px-2">HOME</a></li>
+                <li class="list-none inline-block px-5" ><a href="#" class="no-underline text-white px-2">ABOUT</a></li>
+                <li class="list-none inline-block px-5" ><a href="#" class="no-underline text-white px-2">FEATURE</a></li>
+                <li class="list-none inline-block px-5" ><a href="#"class="no-underline text-white px-2">CONTACT </a></li>
+               
+            </ul>
+            <img src="images/cart.png "class="w-8 cursor-pointer">
+        </nav>
+        <div class="text-white mt-48 max-w-2xl  ">
+            <h1 class="text-6xl font-semibold leading-normal">Grociery<br>Delivery every <span class="font-light">15 mins</span></h1>
+            <p>Grpcify offer a wide range of products, including fresh products, meats, fresh dairy, baked goods and non-perishahle items-center</p>
+
+            <div class="mt-40">
+                <a href="#" class="bg-yellow-300 rounded-2xl px-5 py-5 mr-5 font-medium inline-block hover:bg-transparent hover:border-yellow-300 hover:text-white duration-300 hover:border border-transparent">Order Now!</a>
+                <a href="#" class="bg-blue-900 rounded-2xl p-5 font-medium inline-block hover:bg-transparent hover:border-blue-300 hover:text-white duration-300 hover:border border-transparent">Download App! <span class="text-lg inline-block hover:rotate-90 duration-500">&#10137;</span></a>
+            </div>
+        </div>    
+        <img src="images/grocery-image.png" class="w-full xl:w-1/2 xl:absolute bottom-0 right-2">
+    </div>
+    
+</body>
+</html>
